@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+body{
+    background: #6cb3e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-left: 100px;
+}
+.Search-box{
+    margin-top: 40px;
+    align-items: center;
+    height: min-content;
+}
+.mode{
+    margin-left: 600px;
+    padding: 5px;
+}
+
+.windimg{
+    height: 70px;
+    margin-top: 10px;
+    padding: 6px;
+}
+.input-box{
+    font-size: 41px;
+    padding: 8px;
+    border-radius: 12px;
+}
+.fa-solid {
+    font-size: 40px;
+    padding: 10px;
+    background-color: ghostwhite;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.Search-box input::placeholder{
+    color: rgb(68, 46, 46);
+}
+.Search-box button:hover{
+    color: white;
+    background-color: darkslategray;
+}
+.weather-body{
+    display: none; /*none*//*weather_body.style.display="flex";(JS)*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weather-body img{
+    width: 35%;
+    margin-left: -50px;
+}
+.weather-box{
+    margin-block: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+.weather-box .temperature{
+    font-weight: 800;
+}
+.weather-box .temperature sup{
+    font-weight: 600;
+    margin-right: 50px;
+}
+.weather-box .description{
+    margin-top: -10px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-right: 50px;
+    text-transform: capitalize;
+}
+.weather-details{
+    display: flex;
+    justify-content: space-between;
+}
+.weather-details .humidity{
+    display: flex;
+    margin-left: 50px;
+}
+.weather-details .humidity img{
+    margin-right: 20px;
+    margin-top: 13px;
+    width: 20%;
+}
+.weather-details .humidity .htext{
+    margin-top: 13px;
+    font-size: 30px;
+}
+.weather-details .wind-speed .fa-solid{
+    padding: 20px;
+}
+.weather-details .wind-speed {
+    display: flex;
+    margin-left: 100px;
+}
+.weather-details .wind-speed .wtext{
+    margin-top: 13px;
+    font-size: 30px;
+    margin-left: 20px;
+}

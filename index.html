@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp By Pradipta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button class="mode">Mode:Dark/Light</button>
+            <div class="Search-box">
+                <input type="text" placeholder="Enter Your Location" class="input-box" id="inputLoc" autocomplete="off" contentEditable="true">
+                <button class="fa-solid fa-magnifying-glass" id="search-button" area-hidden="true"></button>
+                <button class="fa-solid fa-microphone" id="vsBtn" area-hidden="true"></button>
+            </div>
+        </div>
+        <div class="weather-body">
+            <img src="/assets/cloud.png" alt="Weather Image" class="weather-img">
+            <div class="weather-box">
+                <p class="temperature">0<sup>°C</sup></p>
+                <p class="description">Light Rain</p>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <img src="assets/humidity.png" alt="" class="humimg">
+                    <p class="htext">00% <br>humidity</p>
+                    
+                </div>
+                <div class="wind-speed">
+                    <img src="assets/windSpeed.png" class="windimg">
+                    <p class="wtext">00Km/Hr <br> Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+    <script src="https://kit.fontawesome.com/f33610f1bd.js" crossorigin="anonymous"></script>
+</body>
+</html>
