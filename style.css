@@ -24,7 +24,6 @@ body{
     padding: 5px;
     cursor: pointer;
     background-color: bisque;
-    margin-top: 4px;
 }
 .mode:hover{
     color: white;
@@ -117,7 +116,6 @@ body{
 }
 .write-up{
     padding: 20px;
-    
     font-size: 20px;
     margin-top: 10px;
 }
