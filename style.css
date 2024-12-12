@@ -22,6 +22,13 @@ body{
 .mode{
     margin-left: 600px;
     padding: 5px;
+    cursor: pointer;
+    background-color: bisque;
+    margin-top: 4px;
+}
+.mode:hover{
+    color: white;
+    background-color: darkslategray;
 }
 
 .windimg{
@@ -107,4 +114,9 @@ body{
     margin-top: 13px;
     font-size: 30px;
     margin-left: 20px;
+}
+.write-up{
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 20px;
 }
